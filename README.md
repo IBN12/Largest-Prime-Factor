@@ -8,7 +8,8 @@ This program will test for prime numbers within a certain index range.
 The index range will have a limit of 13 within an array that will hold the quotient as the result.
 The local variable in the main function, testNum, will be the prime testing number. It will be assigned the number 2 since 1 is not a prime number.
 The divisor will incremented by after each mathematical test iteration:
-quotient[testIndex] = testIndex / divisor;
+
+<b>quotient[testIndex] = testIndex / divisor;</b>
 
 
 
