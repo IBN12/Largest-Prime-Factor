@@ -1,6 +1,6 @@
 <h1>Testing for Prime Numbers</h1>
 
-Definition: A Prime Number is a whole number greater than 1 that can not be made
+<b>Definition:</b> A Prime Number is a whole number greater than 1 that can not be made
 by multiplying other whole numbers. A prime number can only be divided by 1 or itself. 
 
 
@@ -13,7 +13,7 @@ The divisor will incremented by after each mathematical test iteration:
 
 <hr>
 
-The test criterion:
+The test criterion:<br/>
 (1) If the quotient is 1, then testIndex will not be incremented by 1.
 (2) If the quotient is a number greater than 1, then it will be tested on whether it is a whole number or decimal number.
             -> Whole Number - testNum is not a prime number. The entire test will end and testNum will be incremented by 1
