@@ -17,7 +17,7 @@ The divisor will incremented by after each mathematical test iteration:
 (1) If the quotient is 1, then testIndex will not be incremented by 1.<br/>
 (2) If the quotient is a number greater than 1, then it will be tested on whether it is a whole number or decimal number.<br/>
             -> Whole Number - testNum is not a prime number. The entire test will end and testNum will be incremented by 1
-                              to test for the next prime.
+                              to test for the next prime.<br/>
             -> Decimal Number - testIndex will be incremented by 1 and the next iteration will begin inside the loop until
                                 testIndex reaches 13.
 
